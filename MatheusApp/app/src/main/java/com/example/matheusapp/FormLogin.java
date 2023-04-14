@@ -8,6 +8,7 @@ import android.view.View;
 
 public class FormLogin extends AppCompatActivity{
 private TextView text_tela_cadastro;
+private TextView bt_entrar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -16,6 +17,7 @@ private TextView text_tela_cadastro;
 
         getSupportActionBar().hide();
         IniciarComponentes();
+        IniciarComponentePrincipal();
 
         text_tela_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,9 +28,22 @@ private TextView text_tela_cadastro;
             }
         });
 
+        bt_entrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FormLogin.this,TelaPrincipal.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void IniciarComponentes(){
         text_tela_cadastro = findViewById(R.id.text_tela_cadastro);
         }
+
+
+    private void IniciarComponentePrincipal(){
+        bt_entrar = findViewById(R.id.bt_entrar);
+    }
 }

@@ -5,4 +5,6 @@
     <string name="text_cadastro">Crie uma conta clicando aqui</string>
     <string name="title_cadastro">Cadastre-se</string>
     <string name="senha">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="deslogar">Deslogar</string>
 </resources>

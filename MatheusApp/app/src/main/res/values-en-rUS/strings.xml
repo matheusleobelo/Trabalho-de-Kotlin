@@ -5,4 +5,6 @@
     <string name="text_cadastro">Create new acount click here</string>
     <string name="title_cadastro">Register</string>
     <string name="senha">Password</string>
+    <string name="nome">Name</string>
+    <string name="deslogar">Log-out</string>
 </resources>
