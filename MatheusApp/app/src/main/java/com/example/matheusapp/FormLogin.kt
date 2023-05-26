@@ -40,4 +40,6 @@ class FormLogin : AppCompatActivity() {
     private fun IniciarComponentePrincipal() {
         bt_entrar = findViewById(R.id.bt_entrar)
     }
+
+
 }

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "307854600135",
+    "firebase_url": "https://matheusapp-aa450-default-rtdb.firebaseio.com",
+    "project_id": "matheusapp-aa450",
+    "storage_bucket": "matheusapp-aa450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307854600135:android:15812935e3a9afb4951be2",
+        "android_client_info": {
+          "package_name": "com.example.matheusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307854600135-rq18ddsicr3rsokbjr4n34lldb6aa01n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVecqLF9AMbgoOsdvu5oNRT7smh7ztYUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307854600135-rq18ddsicr3rsokbjr4n34lldb6aa01n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
