@@ -21,6 +21,8 @@ class FormLogin : AppCompatActivity() {
         supportActionBar!!.hide()
         IniciarComponentes()
         IniciarComponentePrincipal()
+
+
         text_tela_cadastro!!.setOnClickListener {
             val intent = Intent(this@FormLogin, FormCadastro::class.java)
             startActivity(intent)

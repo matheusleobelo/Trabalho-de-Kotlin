@@ -19,14 +19,14 @@
 
             <TextView
                 android:id="@+id/text_nome"
-                android:text="oi1"
+                android:text="@+id/editNome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 />
 
             <TextView
-                android:text="oi2"
+                android:text="@+id/editEmail"
                 android:id="@+id/text_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

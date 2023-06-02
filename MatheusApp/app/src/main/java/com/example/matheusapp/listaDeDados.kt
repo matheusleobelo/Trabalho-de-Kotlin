@@ -1,4 +1,4 @@
-package com.example.empregaeu4
+package com.example.matheusapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -19,7 +19,8 @@ class listaDeDados : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lista_vagas)
+        setContentView(R.layout.activity_lista_de_dados);
+
 
         empRecyclerView = findViewById(R.id.recycler_view_dados)
         empRecyclerView.layoutManager = LinearLayoutManager(this)
