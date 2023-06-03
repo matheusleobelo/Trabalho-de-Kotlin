@@ -13,7 +13,7 @@ import com.google.firebase.database.*
 
 class listaDeDados : AppCompatActivity() {
     private lateinit var empRecyclerView: RecyclerView
-    private lateinit var tvLoadingData: TextView
+    //private lateinit var tvLoadingData: TextView
     private lateinit var empList: ArrayList<Usuario>
     private lateinit var dbRef: DatabaseReference
 
@@ -67,7 +67,7 @@ class listaDeDados : AppCompatActivity() {
 //                    })
 
                     empRecyclerView.visibility = View.VISIBLE
-                    tvLoadingData.visibility = View.GONE
+                    //tvLoadingData.visibility = View.GONE
                 }
             }
 

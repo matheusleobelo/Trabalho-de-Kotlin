@@ -1,6 +1,6 @@
 package com.example.matheusapp
 
 data class Usuario(
-    val nome: String,
-    val email: String,
+    var nome: String? = null,
+    var email: String? = null,
 )
